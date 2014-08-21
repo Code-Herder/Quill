@@ -1,0 +1,271 @@
+{
+  "root": [
+    {
+      "meta_id": "LEFT_PANEL",
+      "meta_type": "LayoutGroup",
+      "layoutData": {
+        "meta_type": "AnchorLayoutData",
+        "left": "10",
+        "percentWidth": "48",
+        "top": "10",
+        "bottom": "10"
+      },
+      "layout": {
+        "meta_type": "VerticalLayout",
+        "horizontalAlign": "center",
+        "verticalAlign": "top",
+        "gap": "0"
+      },
+      "meta_childs": [
+        {
+          "meta_type": "LayoutGroup",
+          "layoutData": {
+            "meta_type": "VerticalLayoutData",
+            "percentWidth": "100",
+            "percentHeight": "8"
+          },
+          "layout": {
+            "meta_type": "AnchorLayout",
+            "horizontalAlign": "left",
+            "verticalAlign": "middle",
+            "gap": "10"
+          },
+          "meta_childs": [
+            {
+              "meta_type": "Quad",
+              "color": "0x000000",
+              "layoutData": {
+                "meta_type": "AnchorLayoutData",
+                "right": "0",
+                "left": "0",
+                "bottom": "0",
+                "top": "0"
+              }
+            },
+            {
+              "meta_type": "Label",
+              "text": "One versus One",
+              "x": "300",
+              "meta_format_label": {
+                "align": "center",
+                "color": "0xFFFFFF",
+                "font_size": "stage_height * 0.03"
+              },
+              "layoutData": {
+                "meta_type": "AnchorLayoutData",
+                "right": "0",
+                "left": "0",
+                "verticalCenter": "0"
+              }
+            },
+            {
+              "meta_id": "NEW_GAME_BUTTON",
+              "meta_type": "Button",
+              "label": "New",
+              "width": "stage_width * 0.07",
+              "nameList": "light-green-button",
+              "meta_format_button": {
+                "align": "center",
+                "color": "0x000000",
+                "font_size": "stage_height * 0.02"
+              },
+              "layoutData": {
+                "meta_type": "AnchorLayoutData",
+                "right": "5",
+                "top": "5",
+                "bottom": "5",
+                "verticalCenter": "0"
+              }
+            }
+          ]
+        },
+        {
+          "meta_id": "GAME_LIST",
+          "meta_type": "GroupedList",
+          "layout": {
+            "meta_type": "VerticalLayout",
+            "horizontalAlign": "justify",
+            "gap": "10"
+          },
+          "layoutData": {
+            "meta_type": "VerticalLayoutData",
+            "percentWidth": "100",
+            "percentHeight": "80"
+          }
+        },
+        {
+          "meta_type": "LayoutGroup",
+          "layoutData": {
+            "meta_type": "VerticalLayoutData",
+            "percentWidth": "100",
+            "percentHeight": "8"
+          },
+          "layout": {
+            "meta_type": "AnchorLayout",
+            "horizontalAlign": "left",
+            "verticalAlign": "middle",
+            "gap": "10"
+          },
+          "meta_childs": [
+            {
+              "meta_type": "Quad",
+              "color": "0x000000",
+              "layoutData": {
+                "meta_type": "AnchorLayoutData",
+                "right": "0",
+                "left": "0",
+                "bottom": "0",
+                "top": "0"
+              }
+            },
+            {
+              "meta_type": "Label",
+              "text": "Weekly Challenge",
+              "x": "300",
+              "meta_format_label": {
+                "align": "center",
+                "color": "0xFFFFFF",
+                "font_size": "stage_height * 0.03"
+              },
+              "layoutData": {
+                "meta_type": "AnchorLayoutData",
+                "right": "0",
+                "left": "0",
+                "verticalCenter": "0"
+              }
+            }
+          ]
+        },
+        {
+          "meta_id": "CHALLENGE_LIST",
+          "meta_type": "GroupedList",
+          "layoutData": {
+            "meta_type": "VerticalLayoutData",
+            "percentWidth": "100",
+            "percentHeight": "25"
+          }
+        }
+      ]
+    },
+
+
+    {
+      "meta_type": "LayoutGroup",
+      "layoutData": {
+        "meta_type": "AnchorLayoutData",
+        "left":"10",
+        "right": "10",
+        "meta_leftAnchorDisplayObject": "LEFT_PANEL",
+        "top": "10",
+        "bottom": "10"
+      },
+      "layout": {
+        "meta_type": "AnchorLayout"
+      },
+      "meta_childs": [
+        {
+          "meta_id": "STATS_HEADER",
+          "meta_type": "LayoutGroup",
+          "layoutData": {
+            "meta_type": "AnchorLayoutData",
+            "percentWidth": "100",
+            "percentHeight": "6.5"
+          },
+          "layout": {
+            "meta_type": "AnchorLayout",
+            "horizontalAlign": "left",
+            "verticalAlign": "middle",
+            "gap": "10"
+          },
+          "meta_childs": [
+            {
+              "meta_type": "Quad",
+              "color": "0x000000",
+              "layoutData": {
+                "meta_type": "AnchorLayoutData",
+                "right": "0",
+                "left": "0",
+                "bottom": "0",
+                "top": "0"
+              }
+            },
+            {
+	          "meta_id": "STATS_NAME",
+              "meta_type": "Label",
+              "text": "Some Random Stats",
+              "x": "300",
+              "meta_format_label": {
+                "align": "center",
+                "color": "0xFFFFFF",
+                "font_size": "stage_height * 0.03"
+              },
+              "layoutData": {
+                "meta_type": "AnchorLayoutData",
+                "right": "0",
+                "left": "0",
+                "verticalCenter": "0"
+              }
+            }
+          ]
+        },
+        {
+          "meta_id": "STATS_FOOTER",
+          "meta_type": "LayoutGroup",
+          "layoutData": {
+            "meta_type": "AnchorLayoutData",
+            "percentWidth": "100",
+            "percentHeight": "6.5",
+            "bottom": "0"
+          },
+          "layout": {
+            "meta_type": "AnchorLayout",
+            "horizontalAlign": "left",
+            "verticalAlign": "middle",
+            "gap": "10"
+          },
+          "meta_childs": [
+            {
+              "meta_type": "Quad",
+              "color": "0x000000",
+              "layoutData": {
+                "meta_type": "AnchorLayoutData",
+                "right": "0",
+                "left": "0",
+                "bottom": "0",
+                "top": "0"
+              }
+            },
+            {
+          	  "meta_id": "STATS_PAGE_INDICATOR",
+              "meta_type": "PageIndicator",
+              "layoutData": {
+                "meta_type": "AnchorLayoutData",
+                "right": "0",
+                "left": "0",
+                "verticalCenter": "0"
+              }
+            }
+          ]
+        },
+        {
+          "meta_id": "STATS_LIST",
+          "meta_type": "List",
+          "snapToPages":"true",
+          "layout": {
+            "meta_type": "HorizontalLayout",
+            "verticalAlign": "justify",
+            "gap": "0"
+          },
+          "layoutData": {
+            "meta_type": "AnchorLayoutData",
+	        "meta_topAnchorDisplayObject": "STATS_HEADER",
+	        "meta_bottomAnchorDisplayObject": "STATS_FOOTER",
+            "percentWidth": "100",
+            "top": "0",
+            "bottom": "0"
+          }
+        }
+      ]
+    }
+  ]
+}

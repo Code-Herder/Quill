@@ -1,0 +1,79 @@
+{
+  "root": [
+    {
+      "meta_id": "USER_HIGHLIGHT",
+      "meta_type": "Quad",
+      "color": "0x514e4e",
+      "alpha":"0.5",
+      "layoutData": {
+        "meta_type": "AnchorLayoutData",
+        "right": "0",
+        "left": "0",
+        "bottom": "0",
+        "top": "0"
+      }
+    },
+    {
+      "meta_id": "RANK",
+      "meta_type": "Label",
+      "text": "LALALALA",
+      "meta_format_label": {
+        "align": "center",
+        "color": "0xFFFFFF",
+        "font_size": "stage_height * 0.02"
+      },
+      "layoutData": {
+        "meta_type": "AnchorLayoutData",
+        "left": "0",
+        "percentWidth": "10",
+        "verticalCenter": "0"
+      }
+    },
+    {
+      "meta_id": "ICON",
+      "meta_type": "ImageLoader",
+      "maintainAspectRatio":"true",
+      "snapToPixels":"true",
+      "layoutData": {
+        "meta_type": "AnchorLayoutData",
+        "meta_leftAnchorDisplayObject": "RANK",
+        "left": "5",
+        "bottom": "5",
+        "top": "5"
+      }
+    },
+    {
+      "meta_id": "NAME",
+      "meta_type": "Label",
+      "text": "LALALALA",
+      "meta_format_label": {
+        "align": "left",
+        "color": "0xFFFFFF",
+        "font_size": "stage_height * 0.02"
+      },
+      "layoutData": {
+        "meta_type": "AnchorLayoutData",
+        "meta_leftAnchorDisplayObject": "ICON",
+        "left": "40",
+        "percentWidth": "30",
+         "verticalCenter": "0"
+     }
+    },
+    {
+      "meta_id": "ELO_RATING",
+      "meta_type": "Label",
+      "text": "LALALALA",
+      "meta_format_label": {
+        "align": "center",
+        "color": "0xFFFFFF",
+        "font_size": "stage_height * 0.02"
+      },
+      "layoutData": {
+        "meta_type": "AnchorLayoutData",
+        "meta_leftAnchorDisplayObject": "NAME",
+        "left": "0",
+        "verticalCenter": "0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "root": [
+    {
+      "meta_type": "Quad",
+      "color": "0x1C1C1C",
+      "alpha":"0.7",
+      "layoutData": {
+        "meta_type": "AnchorLayoutData",
+        "right": "0",
+        "left": "0",
+        "bottom": "0",
+        "top": "0"
+      }
+    },
+    {
+      "meta_id": "ICON",
+      "meta_type": "ImageLoader",
+      "maintainAspectRatio":"true",
+      "snapToPixels":"true",
+      "layoutData": {
+        "meta_type": "AnchorLayoutData",
+        "left": "5",
+        "bottom": "5",
+        "top": "5"
+      }
+    },
+    {
+      "meta_id": "CHALLENGE_BUTTON",
+      "meta_type": "Button",
+      "label": "New",
+      "width": "stage_width * 0.07",
+      "nameList": "light-blue-button",
+      "meta_format_button": {
+        "align": "center",
+        "color": "0x000000",
+        "font_size": "stage_height * 0.02"
+      },
+      "layoutData": {
+        "meta_type": "AnchorLayoutData",
+        "right": "5",
+        "top": "5",
+        "bottom": "5",
+        "verticalCenter": "0"
+      }
+    },
+    {
+      "meta_id": "MATCH_INFO",
+      "meta_type": "Label",
+      "text": "",
+      "meta_format_label": {
+        "align": "left",
+        "color": "0xFFFFFF",
+        "font_size": "stage_height * 0.02"
+      },
+      "layoutData": {
+        "meta_type": "AnchorLayoutData",
+        "meta_leftAnchorDisplayObject": "ICON",
+        "left":"10",
+        "verticalCenter": "0"
+      }
+    }
+  ]
+}
